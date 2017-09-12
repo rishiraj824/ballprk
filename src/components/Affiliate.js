@@ -38,6 +38,13 @@ class Affiliate extends Component {
   textField.remove()
   }
   render() {
+    const style = {
+      clear: 'left',
+textAlign: 'center',
+margin: '10px',
+color: '#444',
+fontSize: '14px'
+    }
     return (
       <div className="main">
         <h2>Something, something Derek!!</h2>
@@ -55,8 +62,9 @@ class Affiliate extends Component {
             <input type='text' onChange={this.onChange} value={this.state.value} name='link' className='input-field border-grey' />&nbsp;
             <i onClick={this.hideTextbox} className='fa fa-check green'></i>
             </span>}
-            {this.state.copied ? <span>&nbsp;Copied.</span> : null}
         </div>
+
+        {this.state.copied ? <h4 style={style}>&nbsp;Copied.</h4> : null}
         <hr className='breakpoint'/>
         <div className='socials'>
           <p>Share</p>
