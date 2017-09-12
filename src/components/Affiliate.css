@@ -1,0 +1,181 @@
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.main{
+  padding: 60px 25px;
+  max-width: 780px;
+  margin: auto;
+  position: relative;
+  padding-bottom: 100px;
+}
+.main h2{
+  color: #a3a3a3;
+  font-weight: 400;
+}
+.main h5{
+  color: #a3a3a3;
+  font-weight: 500;
+}
+.breakpoint{
+  color: #a3a3a3;
+  margin: 30px auto;
+  width: 150px;
+}
+.editor-link{
+  display: flex;
+  justify-content: center;
+}
+.editor-link h4{
+  color: #a3a3a3;
+  font-weight: 400;
+    margin: 0;
+    font-size: 16px;
+}
+.editor-link{
+  font-size: 16px;
+}
+.socials{
+  text-align: center;
+}
+.socials ul{
+      list-style-type: none;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      -webkit-padding-start: 0;
+      display: flex;
+      max-width: 270px;
+}
+.btn-black{
+  background: #444444;
+}
+.socials ul li{
+  height: 40px;
+  width: 40px;
+  margin: auto;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.socials ul li a{
+  color: #fff;
+}
+.socials ul li a i{
+  vertical-align: middle;
+  margin-top: 11px;
+}
+.btn-theme{
+  background: #608a4d;
+}
+.facebook{
+  background:#3d5893;
+}
+.linkedin{
+  background: #2b6fa2;
+}
+.messenger{
+  background: #297be4;
+}
+.twitter{
+  background: #4c90e9;
+}
+.email {
+  background: #444444;
+}
+.outlook{
+  background:#2873c0;
+}
+.yahoo{
+  background: #701e93;
+}
+.gmail{
+  background: #ce5542;
+}
+.input-field{
+  border: none;
+  outline: none;
+  color: #a3a3a3;
+  font-weight: 400;
+  border-radius: 2px;
+  background: #fafafa;
+  font-weight: 400;
+  box-shadow: none;
+  max-width: 120px;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0 4px;
+}
+.border-grey{
+  border: 2px solid #a3a3a3;
+}
+.input-field-lg{
+  padding: 10px 40px;
+  margin: auto;
+  font-weight: 400;
+  border-radius: 2px;
+  border: 2px solid #a3a3a3;
+  background: #fafafa;
+  color: #a3a3a3;
+  font-size: 16px;
+  outline: none;
+  box-shadow: none;
+  text-align: center;
+}
+.funds h3{
+    color: #949494;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.funds p{
+  text-align: center;
+  color: #a3a3a3;
+}
+.stats-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.stat-item{
+    text-align: center;
+    margin: auto;
+    font-size: 34px;
+    font-weight: 500;
+}
+.stat-item span{
+
+    color: #a3a3a3;
+    margin: 10px 0;
+    display: block;
+    font-size: 13px;
+}
+.socials p{
+    text-align: center;
+    margin: 60px 0 10px 0;
+    display: block;
+    color: #949494;
+    clear: left;
+    font-size: 12px;
+}
+.grey{
+  color: #a3a3a3;
+}
+.green {
+  color: green;
+}
+.btn{
+    max-width: 120px;
+    color: #fff;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 10px auto;
+}
+.funds h1{
+  text-align: center;
+  font-weight: 500;
+  line-height: 40px;
+  font-size: 3.4em;
+}
+.funds sup{
+  font-weight: 400;
+}

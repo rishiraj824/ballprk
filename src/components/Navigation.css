@@ -1,0 +1,29 @@
+.nav ul{
+      list-style-type: none;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      -webkit-padding-start: 0;
+      background: #fff;
+      display: flex;
+      height: 70px;
+      width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-top: 2px solid #a3a3a3;
+  }
+  .nav ul li {
+    padding: 0 10px;
+    justify-content: flex-start;
+    margin: 0 auto;
+    align-self: center;
+  }
+  .nav ul li a{
+    color: #a3a3a3;;
+    font-size: 28px;
+  }
+.nav{
+  position: fixed;
+    width: 100%;
+    bottom: 0;
+}
