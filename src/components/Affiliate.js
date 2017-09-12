@@ -54,13 +54,14 @@ fontSize: '14px'
           <h4>BALLPRK.com/</h4>
           {this.state.edit ?
             <span>
-            <input type='text' className='input-field' value={this.state.value} disabled />
-            <a onClick={this.copyToClipboard}><i className='fa fa-clone grey'></i></a>&nbsp;
-            <a onClick={this.showTextbox}><i className='fa fa-pencil grey'></i></a>
+            <input type='text' className='input-field' value={this.state.value} disabled />&nbsp;
+            &nbsp;&nbsp;<a onClick={this.copyToClipboard}><i className='fa fa-clone grey'></i></a>&nbsp;&nbsp;
+            &nbsp;<a onClick={this.showTextbox}><i className='fa fa-pencil grey'></i></a>
             </span> :
             <span>
-            <input type='text' onChange={this.onChange} value={this.state.value} name='link' className='input-field border-grey' />&nbsp;
-            <i onClick={this.hideTextbox} className='fa fa-check green'></i>
+            <input type='text' onChange={this.onChange} value={this.state.value}
+            name='link' className='input-field border-grey' />&nbsp;
+            &nbsp;<i onClick={this.hideTextbox} className='fa fa-check green'></i>
             </span>}
         </div>
 
